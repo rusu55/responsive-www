@@ -14,7 +14,7 @@ jQuery($ => {
 
   /* --- animations on elements --- */
 
-  if ($(".wow").length && $(window).outerWidth() >= 567) {
+  if ($(".wow").length && $(window).outerWidth() >= 350) {
     let wow = new WOW({
       boxClass: "wow",
       animateClass: "animated",
