@@ -1,0 +1,51 @@
+.footer_logo > img {
+  width: 100%;
+}
+
+.footer_logo {
+  width: 9rem;
+  display: inline-block;
+}
+.address-item {
+  width: 30px;
+  font-size: 30px;
+}
+
+ul.latest_news li,
+ul.latest_news li a,
+ul.hours_links li {
+  display: block;
+}
+
+ul.links li a,
+ul.links li a::before {
+  display: inline-block;
+}
+
+ul.latest_news li {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #4e4e4e;
+  margin-bottom: 1.5rem;
+}
+
+footer p,
+ul.latest_news li .date {
+  font-size: 1.5rem;
+}
+
+ul.latest_news li,
+ul.links li a,
+ul.hours_links li,
+.readmorebtn {
+  font-size: 1.4rem;
+}
+
+ul.links li a:hover,
+ul.links li a:focus,
+ul.latest_news li a:hover,
+ul.latest_news li a:focus,
+.footer_panel p > a:hover,
+.readmorebtn:hover,
+.readmorebtn:focus {
+  color: #24cdd5;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Electric",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devserver": "live-server",
+    "sass:compile": "node-sass-chokidar --include-path ./src --include-path ./node_modules ./src/scss/ -o ./public/css/",
+    "sass:autoprefixer": "postcss ./public/css/*.css --use autoprefixer -d public/css",
+    "build:css": "npm-run-all sass:*",
+    "watch:css": "chokidar \"src/scss/**/*\" -c \"npm run build:css\"",
+    "start": "npm-run-all -p build:css watch:* devserver"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.7.1",
+    "chokidar-cli": "^2.1.0",
+    "live-server": "^1.2.1",
+    "node-sass": "^4.13.0",
+    "node-sass-chokidar": "^1.4.0",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^6.1.3"
+  }
+}

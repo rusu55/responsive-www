@@ -1,0 +1,91 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a,
+a:hover,
+a:focus {
+  outline: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.padding {
+  padding: 7.5rem 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.button {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+p {
+  font-weight: normal;
+  line-height: 1.7;
+  font-size: 1.5rem;
+}
+
+.heading-title h2 {
+  line-height: 1;
+}
+
+.heading-title > span {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.bgdark {
+  background: $bgdark-color;
+}
+
+.whitecolor {
+  color: $whitecolor;
+}
+
+.bottom20 {
+  margin-bottom: 2rem;
+}
+
+.bottom30 {
+  margin-bottom: 3rem;
+}
+
+.bottom35 {
+  margin-bottom: 4rem;
+}
+
+.padding_top {
+  padding-top: 7.5rem;
+}
+
+.padding_bottom_half {
+  padding-bottom: 3.75rem;
+}
+
+.defaultcolor {
+  color: $default-color;
+}
+.font-normal {
+  font-weight: normal;
+}
