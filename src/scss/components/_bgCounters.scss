@@ -1,0 +1,19 @@
+.bg-counters {
+  position: relative;
+}
+
+.bg-counters {
+  background: url(../images/counter-bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.counters .count_nums {
+  font-size: 6.5rem;
+  line-height: 5rem;
+}
+
+.counters .count_nums,
+.counters i {
+  vertical-align: middle;
+}

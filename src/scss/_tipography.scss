@@ -55,12 +55,55 @@ p {
   display: block;
 }
 
+.heading .divider-left {
+  margin: 10px 0 -2px;
+}
+
+.heading .divider-center {
+  margin: 10px auto;
+}
+
+.heading .divider-left,
+.heading .divider-center {
+  height: 4px;
+  width: 70px;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#5192e1),
+    color-stop(51%, #23ced5),
+    to(#5192e1)
+  );
+  display: block;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-light2 {
+  font-weight: 200;
+}
+
 .bgdark {
   background: $bgdark-color;
 }
 
 .whitecolor {
   color: $whitecolor;
+}
+
+.darkcolor {
+  color: #384141;
+}
+
+.top10 {
+  margin-top: 1rem;
+}
+
+.bottom10 {
+  margin-bottom: 1rem;
 }
 
 .bottom20 {
@@ -73,6 +116,10 @@ p {
 
 .bottom35 {
   margin-bottom: 4rem;
+}
+
+.padding {
+  padding: 10rem 0;
 }
 
 .padding_top {

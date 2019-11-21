@@ -4,6 +4,11 @@ jQuery($ => {
   let body = $("body");
   let $root = $("html, body");
 
+  /* ----------- Counters ---------- */
+  $(".counters").appear(function() {
+    $(".count_nums").countTo();
+  });
+
   /*--- smooth page scroll ----*/
   $("a.pagescroll").on("click", function(event) {
     event.preventDefault();
@@ -70,4 +75,11 @@ jQuery($ => {
       });
     });
   }
+
+  /* -- Paralax --*/
+  $(".parallax").parallaxie({
+    //speed value btw (-1 to 1)
+    speed: 0.55,
+    offset: 0
+  });
 });
